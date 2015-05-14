@@ -1,0 +1,33 @@
+{
+  "name": "conways-ping-pong",
+  "version": "1.0.0",
+  "description": "Conway's Game of Life Pair Programming Exercise Starter",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/gulp test:watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://ryanbradynd05@github.com/ryanbradynd05/conways-ping-pong.git"
+  },
+  "author": "Ryan Brady",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanbradynd05/conways-ping-pong/issues"
+  },
+  "homepage": "https://github.com/ryanbradynd05/conways-ping-pong",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jshint": "^1.10.0",
+    "gulp-karma": "0.0.4",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-sequence": "^0.3.2",
+    "jshint-stylish": "^1.0.2",
+    "karma-coverage": "^0.3.1",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "require-dir": "^0.3.0",
+    "which": "^1.0.9"
+  }
+}
